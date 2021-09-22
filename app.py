@@ -111,7 +111,7 @@ def main():
     st.markdown(
         "This application is a web app used to analyze and estimate the 12-month cumulative production of oil wells in Texas. The data is provided by Quantum Energy Partners."
     )
-    st.write("## Oil Production Daskboard")
+    st.write("## Oil Production Dashboard")
     unique = list(df["Operator"].unique())
     unique.insert(0, "All operators")
     opt = st.selectbox(label="Operator", options=unique)
