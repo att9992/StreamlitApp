@@ -109,7 +109,7 @@ def histogram_plot(data):
 def main():
     st.title("Annually Cumulative Oil Production")
     st.markdown(
-        "This application is a web app used to analyze and estimate the 12-month cumulative production of oil wells in Texas. The data is provided by Quantum Energy Partners."
+        "This application is a web app used to analyze and estimate the 12-month cumulative production of oil wells in Midland, Texas."
     )
     st.write("## Oil Production Dashboard")
     unique = list(df["Operator"].unique())
